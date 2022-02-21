@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"type": "C_M02",
+"name": "南京证券股份有限公司",
+"crop_code":"IB_njzq_11111111",
+"promoter": "李浩",
+"unif_soci_cred_code": "222222222222222",
+"date": "2020",
+"time":"yyyy-MM-dd  HH:mm:ss",
+"index_dict": {
+"QualFact00	": "xxxxxxxxx",     -- 所属地方政府                                                         QuanFact_13
+"QualFact10	": "xxxxxxxxx",     -- 公司地位                                                               QualFact_9
+"QualFact17	": "xxxxxxxxx",     -- 政府下城投公司数量                                                      QualFact_10
+"QualFact11	": "xxxxxxxxx",     -- 股权结构                                                               QualFact_11
+"E_QualFact05": "xxxxxxxxx",     -- 	应收账款中来自政府的比例                                           QualFact_12
+"E_QualFact03": "xxxxxxxxx",     -- 	非标融资占比                                                      QualFact_13
+"Size_1LN	": "xxxxxxxxx",     -- 总资产                                                               QuanFact_14
+"Size_3LN	": "xxxxxxxxx",     -- 净资产                                                                 QuanFact_15
+"Liquidity38": "xxxxxxxxx",     -- 货币资金比短期债务                                                      QuanFact_16
+"Operation16": "xxxxxxxxx",     -- 筹资活动现金流出下的分配股利、利润或偿付利息支付的现金/总债务              QuanFact_17
+"QualFact13	": "xxxxxxxxx"     -- 对外担保状况                                                             QualFact_14
+}
+}
+
+

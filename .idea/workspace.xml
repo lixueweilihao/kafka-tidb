@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="kafka-tidb:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e170ced0-4fd8-433a-8784-a147c8686d9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/conf/2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/2.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/njzq/data/utils/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/njzq/data/utils/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="tidb-test" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/software/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1t0eEdIqpUTniNcOxJ7dMJ1xvrT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="D:/workespace/workspace/data" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wp\java\kafka-tidb\src" />
+      <recent name="D:\wp\java\kafka-tidb\conf" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.njzq.data.utils" />
+      <recent name="org.njzq.data.worker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wp\java\kafka-tidb\src\test\java" />
+      <recent name="D:\wp\java\kafka-tidb\src\main\resources" />
+      <recent name="D:\wp\java\kafka-tidb\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.test1">
+    <configuration name="KafakTidb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.njzq.data.worker.KafakTidb" />
+      <module name="kafka-tidb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.njzq.data.worker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.njzq.data.worker.test1" />
+      <module name="kafka-tidb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.njzq.data.worker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.njzq.data.worker.test2" />
+      <module name="kafka-tidb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.njzq.data.worker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.njzq.data.worker.time" />
+      <module name="kafka-tidb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.njzq.data.worker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test1" />
+        <item itemvalue="Application.time" />
+        <item itemvalue="Application.test2" />
+        <item itemvalue="Application.KafakTidb" />
+        <item itemvalue="Application.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e170ced0-4fd8-433a-8784-a147c8686d9c" name="Default Changelist" comment="" />
+      <created>1621910323072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621910323072</updated>
+      <workItem from="1621910328211" duration="110000" />
+      <workItem from="1621910451274" duration="54712000" />
+      <workItem from="1622431127577" duration="28270000" />
+      <workItem from="1626330484686" duration="60000" />
+      <workItem from="1626330583787" duration="4266000" />
+      <workItem from="1627552564301" duration="1478000" />
+      <workItem from="1627605844476" duration="14389000" />
+      <workItem from="1627985867516" duration="6119000" />
+      <workItem from="1628502487650" duration="70000" />
+      <workItem from="1628644161323" duration="24548000" />
+      <workItem from="1629166435805" duration="17280000" />
+      <workItem from="1630310179801" duration="3973000" />
+      <workItem from="1630907574855" duration="5020000" />
+      <workItem from="1632383194838" duration="1812000" />
+      <workItem from="1632906717841" duration="1942000" />
+      <workItem from="1634869789486" duration="2394000" />
+      <workItem from="1636958644453" duration="11023000" />
+      <workItem from="1637135945179" duration="8603000" />
+      <workItem from="1637545950264" duration="38000" />
+      <workItem from="1637546252872" duration="25000" />
+      <workItem from="1637657842536" duration="5020000" />
+      <workItem from="1638506142620" duration="16000" />
+      <workItem from="1638867594446" duration="777000" />
+      <workItem from="1639979186701" duration="5469000" />
+      <workItem from="1642255620725" duration="8848000" />
+      <workItem from="1642725613978" duration="599000" />
+      <workItem from="1644808468747" duration="4876000" />
+      <workItem from="1645409474458" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1736" y="92" key="DiffContextDialog" timestamp="1637042085301">
+      <screen x="-1920" y="5" width="1920" height="1050" />
+    </state>
+    <state x="-1736" y="92" key="DiffContextDialog/0.0.1920.1050/-1920.5.1920.1050@-1920.5.1920.1050" timestamp="1637042085301" />
+    <state x="-1180" y="285" key="FileChooserDialogImpl" timestamp="1637546274835">
+      <screen x="-1920" y="5" width="1920" height="1050" />
+    </state>
+    <state x="-1180" y="285" key="FileChooserDialogImpl/0.0.1920.1050/-1920.5.1920.1050@-1920.5.1920.1050" timestamp="1637546274835" />
+    <state width="1815" height="216" key="GridCell.Tab.0.bottom" timestamp="1644813560669">
+      <screen x="-1920" y="5" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="216" key="GridCell.Tab.0.bottom/0.0.1858.1080/-1920.5.1858.1080@-1920.5.1858.1080" timestamp="1644813560669" />
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.5.1920.1050@-1920.5.1920.1050" timestamp="1639987922939" />
+    <state width="1815" height="216" key="GridCell.Tab.0.center" timestamp="1644813560667">
+      <screen x="-1920" y="5" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="216" key="GridCell.Tab.0.center/0.0.1858.1080/-1920.5.1858.1080@-1920.5.1858.1080" timestamp="1644813560667" />
+    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.5.1920.1050@-1920.5.1920.1050" timestamp="1639987922939" />
+    <state width="1815" height="216" key="GridCell.Tab.0.left" timestamp="1644813560666">
+      <screen x="-1920" y="5" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="216" key="GridCell.Tab.0.left/0.0.1858.1080/-1920.5.1858.1080@-1920.5.1858.1080" timestamp="1644813560666" />
+    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.5.1920.1050@-1920.5.1920.1050" timestamp="1639987922939" />
+    <state width="1815" height="216" key="GridCell.Tab.0.right" timestamp="1644813560669">
+      <screen x="-1920" y="5" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="216" key="GridCell.Tab.0.right/0.0.1858.1080/-1920.5.1858.1080@-1920.5.1858.1080" timestamp="1644813560669" />
+    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.5.1920.1050@-1920.5.1920.1050" timestamp="1639987922939" />
+    <state x="-1430" y="185" key="Maven.ArtifactSearchDialog" timestamp="1639979216038">
+      <screen x="-1920" y="5" width="1920" height="1050" />
+    </state>
+    <state x="-1430" y="185" key="Maven.ArtifactSearchDialog/0.0.1920.1050/-1920.5.1920.1050@-1920.5.1920.1050" timestamp="1639979216038" />
+    <state x="-1459" y="172" key="SettingsEditor" timestamp="1639979209898">
+      <screen x="-1920" y="5" width="1920" height="1050" />
+    </state>
+    <state x="-1459" y="172" key="SettingsEditor/0.0.1920.1050/-1920.5.1920.1050@-1920.5.1920.1050" timestamp="1639979209898" />
+    <state x="-1284" y="263" width="647" height="534" key="find.popup" timestamp="1636966243312">
+      <screen x="-1920" y="5" width="1920" height="1050" />
+    </state>
+    <state x="-1284" y="263" width="647" height="534" key="find.popup/0.0.1920.1050/-1920.5.1920.1050@-1920.5.1920.1050" timestamp="1636966243312" />
+    <state x="-1198" y="242" key="git4idea.branch.GitSmartOperationDialog" timestamp="1637042137034">
+      <screen x="-1920" y="5" width="1920" height="1050" />
+    </state>
+    <state x="-1198" y="242" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050/-1920.5.1920.1050@-1920.5.1920.1050" timestamp="1637042137034" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/worker/test1.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/worker/test1.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil_dbcp.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil_dbcp.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil_dbcp.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil_dbcp.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil_dbcp.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/MySQLUtil_dbcp.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/utils/TidbSink.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/njzq/data/worker/test1.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
